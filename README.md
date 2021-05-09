@@ -14,9 +14,6 @@
     cd ~/gm
     ./start.sh
 
-## In game settings
-    worldborder set 5000
-
 ## Auto start
     crontab -e
       @reboot ~/gm/start.sh
