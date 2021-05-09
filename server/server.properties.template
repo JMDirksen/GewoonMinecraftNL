@@ -1,0 +1,5 @@
+motd=Gewoon Minecraft NL
+difficulty=normal
+max-players=5
+server-port=25000
+player-idle-timeout=15
