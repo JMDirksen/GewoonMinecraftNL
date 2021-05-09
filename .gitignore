@@ -1,0 +1,6 @@
+*.json
+*.jar
+server.properties
+server/logs/
+server/world/*
+!server/world/datapacks/
