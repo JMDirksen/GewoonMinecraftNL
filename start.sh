@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ~/gm/server
-java -jar server.jar
+cd "$(dirname "$0")"
+screen -dmS gm ./loop.sh
