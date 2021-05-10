@@ -4,3 +4,4 @@ max-players=5
 server-port=25000
 player-idle-timeout=15
 function-permission-level=4
+spawn-protection=0
