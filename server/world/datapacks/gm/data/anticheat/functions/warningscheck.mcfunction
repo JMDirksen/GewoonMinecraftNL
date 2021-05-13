@@ -9,3 +9,4 @@ execute as @a run scoreboard players operation @s warnings += @s fly_warning
 scoreboard players reset @a[scores={warnings=0}] warnings
 scoreboard players reset @a[scores={ore_warning=0}] ore_warning
 scoreboard players reset @a[scores={fly_warning=0}] fly_warning
+scoreboard players reset @a[scores={diamonds_mined=0}] diamonds_mined
