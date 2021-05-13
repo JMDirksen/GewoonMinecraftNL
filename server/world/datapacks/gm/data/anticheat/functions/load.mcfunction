@@ -3,6 +3,6 @@ scoreboard objectives add ore_warning dummy
 scoreboard objectives add flycheck dummy
 scoreboard objectives add fly_warning dummy
 scoreboard objectives add warnings dummy
-function adminnotice:orecheck
-function adminnotice:flycheck
-function adminnotice:warningscheck
+function anticheat:orecheck
+function anticheat:flycheck
+function anticheat:warningscheck

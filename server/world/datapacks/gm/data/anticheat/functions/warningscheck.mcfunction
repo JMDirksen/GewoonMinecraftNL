@@ -1,4 +1,4 @@
-schedule function adminnotice:warningscheck 1s
+schedule function anticheat:warningscheck 1s
 
 # Calculate warnings
 scoreboard players reset @a warnings
