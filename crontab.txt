@@ -1,0 +1,1 @@
+@reboot ~/gmnl/start.sh
