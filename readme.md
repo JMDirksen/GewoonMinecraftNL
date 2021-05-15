@@ -1,20 +1,21 @@
 # GewoonMinecraftNL
 
 ## Prerequisites
-    sudo apt install openjdk-14-jre-headless
+
+    sudo apt install -y git screen openjdk-17-jre-headless
 
 ## Clone
-    git clone https://github.com/JeftaDirksen/GewoonMinecraftNL.git gm
+
+    git clone https://github.com/JeftaDirksen/GewoonMinecraftNL.git gmnl
 
 ## Download/configure
-    cd ~/gm/server
-    wget https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+
+Find download url on https://www.minecraft.net/en-us/download/server
+
+    wget -O gmnl/server/server.jar https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
     cp server.properties.template server.properties
+    crontab gmnl/crontab.txt
 
 ## Start server
-    cd ~/gm
-    ./start.sh
 
-## Auto start
-    crontab -e
-      @reboot ~/gm/start.sh
+    ./gmnl/start.sh
