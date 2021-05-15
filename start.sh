@@ -1,3 +1,3 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-screen -dmS gm ./loop.sh
+screen -dmS gmnl ./loop.sh
