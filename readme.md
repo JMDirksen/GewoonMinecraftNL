@@ -21,3 +21,9 @@
 ## Start server
 
     ./start.sh
+
+## Backup
+
+    crontab -e
+        SHELL=/bin/bash
+        0 * * * * rsync -r --del --password-file=<(echo password) ~/gmnl user@host::Backup/
